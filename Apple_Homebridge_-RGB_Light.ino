@@ -34,9 +34,9 @@ beware the keywords are parsed so it will have to be different keywords for all 
 =======
  */
 
-// TODO: take into account the fact that sliding brightness to 0 sends both /brightness/0 AND /off commands
-// TODO: take into account the fact that sliding brightness to x sends /brightness/X then /on
-// TODO: keep previous colour saved when brightness off then on because on after brightness 0, on set all to 254 (rounding 100 brightness)
+// DONE: take into account the fact that sliding brightness to 0 sends both /brightness/0 AND /off commands
+// DONE: take into account the fact that sliding brightness to x sends /brightness/X then /on
+// DONE: keep previous colour saved when brightness off then on because on after brightness 0, on set all to 254 (rounding 100 brightness)
 
 
 #include <ESP8266WiFi.h>
